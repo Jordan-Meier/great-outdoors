@@ -1,0 +1,4 @@
+name = The Great Outdoors
+description = Custom theme for TGO Drupal Epicodus group project
+core = 7.x
+base theme = tao
