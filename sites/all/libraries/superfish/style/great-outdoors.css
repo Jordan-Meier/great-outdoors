@@ -1,0 +1,151 @@
+.sf-menu.sf-style-great-outdoors {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-great-outdoors.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-great-outdoors ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-great-outdoors a,
+.sf-menu.sf-style-great-outdoors span.nolink {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 1em;
+  transition: all .5s
+}
+.sf-menu.sf-style-great-outdoors a.sf-with-ul,
+.sf-menu.sf-style-great-outdoors span.nolink.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-great-outdoors.rtl a.sf-with-ul,
+.sf-menu.sf-style-great-outdoors.rtl span.nolink.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-great-outdoors span.sf-description {
+  color: #0000ff;
+  display: block;
+  font-size: 0.833em;
+  line-height: 1.5;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-great-outdoors.rtl span.sf-description {
+  margin: 5px 5px 0 0;
+}
+.sf-menu.sf-style-great-outdoors li,
+.sf-menu.sf-style-great-outdoors.sf-navbar {
+  background: transparent;
+  transition: all .5s;
+}
+.sf-menu.sf-style-great-outdoors li li {
+  background: transparent;
+}
+.sf-menu.sf-style-great-outdoors li li li {
+  background: transparent;
+}
+.sf-menu.sf-style-great-outdoors li:hover,
+.sf-menu.sf-style-great-outdoors li.sfHover,
+.sf-menu.sf-style-great-outdoors a:focus,
+.sf-menu.sf-style-great-outdoors a:hover,
+.sf-menu.sf-style-great-outdoors a:active,
+.sf-menu.sf-style-great-outdoors span.nolink:hover {
+  background: #FFFFFF;
+  color: #000000;
+  outline: 0;
+}
+
+.sf-menu.sf-style-great-outdoors li:hover > a {
+  color: #000000;
+}
+
+
+.sf-menu.sf-style-great-outdoors li:hover > ul,
+.sf-menu.sf-style-great-outdoors li.sfHover > ul {
+  top: 40px;
+}
+.sf-menu.sf-style-great-outdoors .sf-sub-indicator {
+  background-image: url('../images/dropdown-arrows.png');
+}
+div.sf-accordion-toggle.sf-style-great-outdoors a {
+  background: transparent;
+  color: #0000ff;
+  padding: 1em;
+}
+div.sf-accordion-toggle.sf-style-great-outdoors a.sf-expanded,
+.sf-menu.sf-style-great-outdoors.sf-accordion li.sf-expanded {
+  background-color: transparent;
+}
+div.sf-accordion-toggle.sf-style-great-outdoors a.sf-expanded,
+.sf-menu.sf-style-great-outdoors.sf-accordion li.sf-expanded > a,
+.sf-menu.sf-style-great-outdoors.sf-accordion li.sf-expanded > span.nolink {
+  font-weight: bold;
+}
+.sf-menu.sf-style-great-outdoors.sf-accordion li a.sf-accordion-button {
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 499;
+}
+.sf-menu.sf-style-great-outdoors.sf-accordion li li a,
+.sf-menu.sf-style-great-outdoors.sf-accordion li li span.nolink {
+  padding-left: 2em;
+}
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li a,
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li span.nolink {
+  padding-left: 3em;
+}
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li li a,
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li li span.nolink {
+  padding-left: 4em;
+}
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li li li a,
+.sf-menu.sf-style-great-outdoors.sf-accordion li li li li li span.nolink {
+  padding-left: 5em;
+}
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li a,
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li span.nolink {
+  padding-left: auto;
+  padding-right: 2em;
+}
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li a,
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li span.nolink {
+  padding-left: auto;
+  padding-right: 3em;
+}
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li li a,
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 4em;
+}
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li li li a,
+.sf-menu.sf-style-great-outdoors.rtl.sf-accordion li li li li li span.nolink {
+  padding-left: auto;
+  padding-right: 5em;
+}
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent,
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper span.nolink.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper {
+  background: transparent;
+}
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper li {
+  background: transparent;
+}
+.sf-menu.sf-style-great-outdoors ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+}
+.sf-menu.sf-style-great-outdoors.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
