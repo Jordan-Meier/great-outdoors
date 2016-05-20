@@ -32,7 +32,7 @@ To install
 * Select the project directory.
 * Start the Servers.
 * In your browser, navigate to: http://localhost:8888/phpMyAdmin/
-* Import the database that is located in the sites/all/db-backup called pantheon.sql (The name of the database is: pantheon).
+* Import the database that is located in the sites/all/db-backup. 
 * Once the database is successfully downloaded, click on it on the far left of the screen, and find the tab at the top of the screen called 'Privileges'.
 * Add the following user:
 `User name: pantheon
